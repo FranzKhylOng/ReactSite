@@ -40,7 +40,7 @@ const About = () => {
             </div>
             
             <p>
-             Hi! I'm a computer engineering student who loves tech. I know I still have much to learn, so it keeps me even more motivated and open-minded. As cliche as it may sound, my favorite book is unapologetically 'Atomic Habits' by James Clear. 
+             Hi! I'm a computer engineering student who loves tech. I know I still have much to learn, so it keeps me even more motivated and open-minded. I am always willing to learn. My favorite book is 'Keep Going' by Austin Kleon. 
             </p>
 
             <a href="#contact" className="btn btn-primary">Let's Talk</a>
