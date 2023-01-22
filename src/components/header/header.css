@@ -29,7 +29,7 @@ h1{
     align-items: center;
     position: absolute;
     font-size: 1.5rem;
-    left: 0;
+    left: 13.35rem;
     bottom: 3rem;
 }
 
@@ -59,7 +59,7 @@ h1{
 /*---------Scroll--------*/
 .scroll__down{
     position: absolute;
-    right: -2.3rem;
+    right: 11rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
