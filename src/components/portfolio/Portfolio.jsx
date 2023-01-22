@@ -5,6 +5,7 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Portfolio = () => {
   return (
@@ -12,6 +13,7 @@ const Portfolio = () => {
       <h2>My Projects</h2>
 
       <div className="container portfolio__container">
+      <Slide direction='left' duration={800}>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="TruthSeeker.AI" />
@@ -22,6 +24,8 @@ const Portfolio = () => {
             <a href="https://docs.google.com/presentation/d/e/2PACX-1vSAUqLn2SX62ZoI3-ozGDOZXonZNic1SBkQHcXVV2oMWII9cC6CkpKn7dSiCFPA6g/pub?start=false&loop=false&delayms=5000" className='btn btn-primary' target='_blank'>Pitch Deck</a>
           </div>
         </article>
+
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG2} alt="Sensor website" />
@@ -32,6 +36,8 @@ const Portfolio = () => {
             <a href="https://www.canva.com/design/DAFYUay7J-I/cnkRjilgxypGcO_RuUKVdg/view?utm_content=DAFYUay7J-I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className='btn btn-primary' target='_blank'>Presentation</a>
           </div>
         </article>
+ 
+  
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="Old personal site" />
@@ -42,6 +48,8 @@ const Portfolio = () => {
             <a href="https://franzkhylong.github.io/site/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
+        </Slide>
+        <Slide direction='right' duration={800}>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG4} alt="Random password generator site" />
@@ -61,6 +69,7 @@ const Portfolio = () => {
             <a href="https://franzkhylong.github.io/Scoreboard/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
+        </Slide>
       </div>
     </section>
   )

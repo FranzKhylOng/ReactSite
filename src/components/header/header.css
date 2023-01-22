@@ -1,5 +1,5 @@
 header{
-    height: 80vh;
+    height: 100vh;
     padding-top: 2rem;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@ header{
 .text{
     margin: auto;
     position: relative;
-    top: 7rem;
+    top: 4rem;
 }
 
 h1{

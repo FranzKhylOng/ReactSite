@@ -9,31 +9,34 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <Fade>
+        <Slide direction='left' duration={800}>
           <div className="pic">
             <div className="me">
               <img src={ME} alt="me" />
             </div>
           </div>
-        </Fade>
+          </Slide>
 
+          
           <div className="text">
-            <Slide direction='down'>
+          <Slide direction='right' duration={800}>
             <h5 className='introtxt'>Hello! My name is</h5>
             <h1>Franz Khyl Ong</h1>
-            </Slide>
-             
-            <Slide direction='up'>
             <h5 className="text-light introtxt">A 4th Year Computer Engineering Student</h5>
-            <div className='cta'>
-              <a href={Resume} download className='btn'>Resume</a>
-              <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-            </div>
             </Slide>
-
+            <div className='cta'>
+              <Slide direction='up' delay={150} duration={800}>
+              <a href={Resume} download className='btn'>Resume</a>
+              </Slide>
+              <Slide direction='up' delay={300} duration={800}>
+              <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+              </Slide>
+            </div>
+        
           </div>
+          
       </div>
-      <Fade delay={1000}>
+      <Fade delay={1000} duration={800} triggerOnce>
       <HeaderSocial />
       <a href="#contact" className='scroll__down'>Scroll Down</a>
       </Fade>

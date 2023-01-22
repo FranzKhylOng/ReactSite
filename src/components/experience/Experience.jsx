@@ -1,14 +1,18 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Experience = () => {
   return (
+    
     <section id='experience'>
-      <h5>Get To Know</h5>
-      <h2>My Skills</h2>
-
+     
+        <h5>Get To Know</h5>
+        <h2>My Skills</h2>
+        
         <div className="container experience__container">
+        <Slide direction='left' duration={800}>
           <div className="experience_hard">
             <h3>Hard Skills</h3>
             <div className="experience__content">
@@ -46,8 +50,9 @@ const Experience = () => {
               </article>
             </div>
           </div>
+          </Slide>
 
-
+          <Slide direction='right' duration={800}>
           <div className="experience_soft">
             <h3>Soft Skills</h3>
             <div className="experience__content">
@@ -73,10 +78,11 @@ const Experience = () => {
               </article>
             </div>
           </div>
-
+          </Slide>
         </div>
-
+  
     </section>
+
   )
 }
 
