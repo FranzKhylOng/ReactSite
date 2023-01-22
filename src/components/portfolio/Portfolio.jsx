@@ -10,6 +10,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 const Portfolio = () => {
   return (
     <section id='portfolio'>
+      <h5>Get To Know</h5>
       <h2>My Projects</h2>
 
       <div className="container portfolio__container">
