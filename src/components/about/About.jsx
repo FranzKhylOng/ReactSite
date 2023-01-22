@@ -52,7 +52,7 @@ const About = () => {
             
             <Slide direction='right' duration={800}>
             <p>
-             Hi! I'm a computer engineering student who loves tech. I know I still have much to learn, so it keeps me even more motivated and open-minded. I am always willing to learn. My favorite book is 'Keep Going' by Austin Kleon. 
+             Hi! I'm a computer engineering student who loves tech. I know I still have much to learn, so it keeps me even more motivated and open-minded. I am always willing to be taught. My favorite book as of the moment is 'Keep Going' by Austin Kleon. 
             </p>
 
             <a href="#contact" className="btn btn-primary">Let's Talk</a>
