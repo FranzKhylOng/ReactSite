@@ -87,27 +87,64 @@ h1{
 /*-------- Medium Sized Screens--------*/
 @media screen and (max-width: 1024px){
     header{
-        height: 68vh;
+        height: 100vh;
     }
 
+    .me{
+        margin-top: 0;
+        width: 27rem;
+        height: 30rem;
+    }
+
+    .text{
+        top: 15rem;
+    }
+    
     .header__container{
         grid-template-columns: 1fr;
     }
+
+    .header__socials{
+        left: 3rem;
+    }
+
+    .scroll__down{
+        right: 2rem;
+    }
+    
 }
 
 /*-------- Small Sized Screens--------*/
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
+        height: 120vh;
+        padding-top: 0px;
     }
 
     .header__container{
         gap: 1rem;
-        grid-row: 2;
+        row-gap: 30rem;
     }
     
+    .text{
+        top: 8rem;
+    }
+    
+    .text h1{
+        font-size: 3rem;
+    }
 
-    .scroll__down{
+    .introtxt{
+        font-size: 1rem;
+    }
+
+    .me{
+        margin-top: 4rem;
+        width: 27rem;
+        height: 30rem;
+    }
+
+    .scroll__down, .header__socials{
         display: none;
     }
 }
