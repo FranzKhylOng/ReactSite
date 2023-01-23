@@ -47,7 +47,7 @@ h1{
     align-items: center;
     position: absolute;
     font-size: 1.5rem;
-    left: 10rem;
+    left: 5rem;
     bottom: 12rem;
 }
 
@@ -74,15 +74,7 @@ h1{
     overflow: hidden;
 }
 
-/*---------Scroll--------*/
-.scroll__down{
-    position: absolute;
-    right: 11rem;
-    bottom: 12rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-}
+
 
 /*-------- Medium Sized Screens--------*/
 @media screen and (max-width: 1024px){

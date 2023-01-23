@@ -38,7 +38,6 @@ const Header = () => {
       </div>
       <Fade delay={1000} duration={800} triggerOnce>
       <HeaderSocial />
-      <a href="#contact" className='scroll__down'>Scroll Down</a>
       </Fade>
     </header>
   )
