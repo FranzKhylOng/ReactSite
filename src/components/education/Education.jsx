@@ -13,14 +13,14 @@ const Education = () => {
             <Slide direction='right' duration={800} delay>
             <div className="educ-item">
                 <h3 className='date'>2019-2023</h3>
-                <h2>Bachelor's degree, Computer Engineering</h2>
+                <h2 className='info'>Bachelor's degree, Computer Engineering</h2>
                 <h3>Pamantasan ng Lungsod ng Maynila</h3>
             </div>
             </Slide>
             <Slide direction='right' duration={800} delay={150}>
             <div className="educ-item">
                 <h3 className='date'>2017-2019</h3>
-                <h2>STEM - Technology</h2>
+                <h2 className='info'>STEM - Technology</h2>
                 <h3>Adamson University</h3>
             </div>
             </Slide>
