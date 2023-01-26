@@ -24,6 +24,13 @@ const Education = () => {
                 <h3>Adamson University</h3>
             </div>
             </Slide>
+            <Slide direction='right' duration={800} delay={300}>
+            <div className="educ-item">
+                <h3 className='date'>2022-2023</h3>
+                <h2 className='info'>Data Committee</h2>
+                <h3>Google Developer's Student Clubs- PLM</h3>
+            </div>
+            </Slide>
         </div>
     </section>
   )
