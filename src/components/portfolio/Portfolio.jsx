@@ -31,7 +31,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="Sensor website" />
           </div>
-          <h3>Microcontroller-Based Monitoring System</h3>
+          <h3>Dashboard Monitoring System</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/calso-christian/Sensor-Project-Website" className='btn' target='_blank'>Github</a>
             <a href="https://www.canva.com/design/DAFYUay7J-I/cnkRjilgxypGcO_RuUKVdg/view?utm_content=DAFYUay7J-I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className='btn btn-primary' target='_blank'>Presentation</a>
@@ -43,7 +43,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="Old personal site" />
           </div>
-          <h3>Old Site Using Vanilla</h3>
+          <h3>First Website</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/FranzKhylOng/site" className='btn' target='_blank'>Github</a>
             <a href="https://franzkhylong.github.io/site/" className='btn btn-primary' target='_blank'>Live Demo</a>
