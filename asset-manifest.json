@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactSite/static/css/main.5119ae35.css",
-    "main.js": "/ReactSite/static/js/main.6eef31db.js",
+    "main.css": "/ReactSite/static/css/main.cbe99733.css",
+    "main.js": "/ReactSite/static/js/main.c7e978e7.js",
     "static/media/me.png": "/ReactSite/static/media/me.e17acf310fcec943ec4e.png",
     "static/media/metwo.png": "/ReactSite/static/media/metwo.d1aedeb0261b27c97ea3.png",
     "static/media/Resume.pdf": "/ReactSite/static/media/Resume.f05964b2dfd6a058d02e.pdf",
@@ -11,11 +11,11 @@
     "static/media/portfolio2.png": "/ReactSite/static/media/portfolio2.6ece6dacc53c0e3cdbf3.png",
     "static/media/portfolio5.png": "/ReactSite/static/media/portfolio5.e71c133917e7b66c56a6.png",
     "index.html": "/ReactSite/index.html",
-    "main.5119ae35.css.map": "/ReactSite/static/css/main.5119ae35.css.map",
-    "main.6eef31db.js.map": "/ReactSite/static/js/main.6eef31db.js.map"
+    "main.cbe99733.css.map": "/ReactSite/static/css/main.cbe99733.css.map",
+    "main.c7e978e7.js.map": "/ReactSite/static/js/main.c7e978e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5119ae35.css",
-    "static/js/main.6eef31db.js"
+    "static/css/main.cbe99733.css",
+    "static/js/main.c7e978e7.js"
   ]
 }
