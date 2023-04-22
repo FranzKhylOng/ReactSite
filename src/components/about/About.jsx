@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/metwo.png'
-import {FaBrain} from 'react-icons/fa'
+import {SiGoogletagmanager} from 'react-icons/si'
 import {FaAward} from 'react-icons/fa'
 import {FaUserGraduate} from 'react-icons/fa'
 import { Fade, Slide } from "react-awesome-reveal";
@@ -27,9 +27,9 @@ const About = () => {
           <div className="about__cards">
             <Slide direction='down' duration={800}>
             <article className="about__card">
-              <FaBrain className='about__icon'/>
-              <h5>Attitude</h5>
-              <small>Loves to learn</small>
+              <SiGoogletagmanager className='about__icon'/>
+              <h5>Extracurricular</h5>
+              <small>Data Committee Lead</small>
             </article>
             </Slide>
 
