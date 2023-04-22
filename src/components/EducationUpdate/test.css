@@ -1,0 +1,28 @@
+#test{
+    margin-top: 0px;
+    margin-bottom: 15rem;
+}
+
+.h3txt{
+    color: var(--color-lighter);
+}
+
+.test__container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+    row-gap: 8rem;
+}
+
+.testimg{
+    border-radius: 10%;
+    width: 100%;
+    height: 420px;
+}
+
+
+
+p{
+    margin-top: 10px;
+    text-align: justify;
+}

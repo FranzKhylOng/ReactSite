@@ -40,6 +40,7 @@
 
 .portfolio__item-cta > .btn-primary{
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 
@@ -49,6 +50,9 @@
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+    }
+    .portfolio__item-cta > .btn-primary{
+        margin-top: 10px;
     }
 }
 

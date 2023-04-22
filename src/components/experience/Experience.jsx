@@ -42,12 +42,29 @@ const Experience = () => {
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
+                <h4>Power Bi</h4>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <h4>Power Automate</h4>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <h4>Power Apps</h4>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <h4>SQL</h4>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
                 <h4>C++</h4>
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <h4>C#</h4>
               </article>
+
             </div>
           </div>
           </Slide>
@@ -59,6 +76,14 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <h4>Growth Mindset</h4>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <h4>Public Speaking</h4>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <h4>Self-Motivated</h4>
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />

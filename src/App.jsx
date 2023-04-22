@@ -6,7 +6,7 @@ import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Chat from './components/chat/Chat'
-import Education from './components/education/Education'
+import Education from './components/EducationUpdate/test'
 
 const app = () => { 
   return (
