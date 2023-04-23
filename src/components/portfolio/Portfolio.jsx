@@ -5,7 +5,8 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import { Fade, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
+import {Link} from 'react-router-dom';
 
 const Portfolio = () => {
   return (
@@ -23,6 +24,7 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/FranzKhylOng/TruthSeeker.AI" className='btn' target='_blank'>Github</a>
             <a href="https://docs.google.com/presentation/d/e/2PACX-1vSAUqLn2SX62ZoI3-ozGDOZXonZNic1SBkQHcXVV2oMWII9cC6CkpKn7dSiCFPA6g/pub?start=false&loop=false&delayms=5000" className='btn btn-primary' target='_blank'>Pitch Deck</a>
+            <Link className='btn btn-primary' to="/udemy">View</Link>
           </div>
         </article>
 
