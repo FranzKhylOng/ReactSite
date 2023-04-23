@@ -42,7 +42,7 @@ const Experience = () => {
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
-                <h4>Power Bi</h4>
+                <h4>Power BI</h4>
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
