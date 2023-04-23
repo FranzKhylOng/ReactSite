@@ -20,7 +20,7 @@ const Header = () => {
           
           <div className="text">
           <Slide direction='right' duration={800}>
-            <h5 className='introtxt'>Hello! My name is</h5>
+            <h5 className='introtxt'>Hello! My name is...</h5>
             <h1>Franz Khyl Ong</h1>
             <h5 className="text-light introtxt">I am a 4th year computer engineering student who aspires to break into the world of data!</h5>
             </Slide>

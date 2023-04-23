@@ -9,11 +9,11 @@ const Test = () => {
     return (
         <section id="test">
         <h5>Get To Know</h5>
-        <h2>My Education</h2>
+        <h2 id='testh2'>My Education</h2>
         <div className="container test__container">
             <Slide direction='left' duration={800} delay={300}>
             <div className="imageitem">
-                <img src={datacomm} alt="Data Committee"  className='testimg'/>
+                <img src={datacomm} alt="Data Committee"  className='testimgleft'/>
             </div>
             </Slide>
             <Slide direction='right' duration={800} delay={300}>
@@ -21,7 +21,7 @@ const Test = () => {
                 <h2 className='info'>Data Committee Co-Lead</h2>
                 <h3 className='h3txt'>Google Developer's Student Clubs - PLM</h3>
                 <h3 className='date'>2022-2023</h3>
-                <p>The privilege of being the committee's co-lead has helped me learn a lot of valuable of experience that helps me grow as a person. My role involves a range of responsibilities and duties, such as to developing and executing events, organizing and leading regular meetings within the committee, and leading internal projects that would benefit our organization, such as creating dashboards for our audience demographics and performing natural language processing on our event feedbacks.</p>
+                <p>The privilege of being the committee's co-lead has helped me learn a lot of valuable of experience that helps me grow as a person. My role involves a range of responsibilities and duties, such as to developing and executing events, organizing and leading regular meetings within the committee, and leading and participating in projects that would benefit our organization, such as creating dashboards for our audience demographics and performing natural language processing on our event feedbacks.</p>
             </div>
             </Slide>
             <Slide direction='left' duration={800} delay={300}>
@@ -29,17 +29,17 @@ const Test = () => {
                 <h2 className='info'>BS Computer Engineering</h2>
                 <h3 className='h3txt'>Pamantasan ng Lungsod ng Maynila</h3>
                 <h3 className='date'>2019-2023</h3>
-                <p>My time being a computer engineering student in PLM has given me the opportunity to explore programming more, where I was able to create websites for our projects, prepare more for presentations and defenses, be able to collaborate with fellow-students, and much more.</p>
+                <p>My time being a computer engineering student in PLM has given me the opportunity to explore programming more, where I was able to create websites for our projects, participate in more presentations and defenses, be able to collaborate with fellow-students, and much more.</p>
             </div>
             </Slide>
             <Slide direction='right' duration={800} delay={300}>
             <div className="imageitem">
-                <img className='testimg' src={plm} alt="plm" />
+                <img className='testimgright' src={plm} alt="plm" />
             </div>
             </Slide>
             <Slide direction='left' duration={800} delay={300}>
             <div className="imageitem">
-                <img src={stem} alt="Stem tech"  className='testimg'/>
+                <img src={stem} alt="Stem tech"  className='testimgleft'/>
             </div>
             </Slide>
             <Slide direction='right' duration={800} delay={300}>

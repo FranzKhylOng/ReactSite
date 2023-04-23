@@ -52,7 +52,7 @@ const About = () => {
             
             <Slide direction='right' duration={800}>
             <p>
-             Hi! My name is Franz Khyl M. Ong and I love tech! I would love to establish a career in data some day so I will do my very best in achieving that dream.
+             Hi! My name is Franz Khyl M. Ong and I love all things tech! I would love to establish a career in data some day, so I will do my very best in achieving that dream.
             </p>
 
             <a href="#contact" className="btn btn-primary">Let's Talk</a>

@@ -6,6 +6,10 @@
 .h3txt{
     color: var(--color-lighter);
 }
+.info{
+    color: var(--color-primary);
+    font-size: 1.6rem;
+}
 
 .test__container{
     display: grid;
@@ -14,15 +18,43 @@
     row-gap: 8rem;
 }
 
-.testimg{
+#testh2{
+    margin-bottom: 5rem;
+}
+
+.testimgleft{
     border-radius: 10%;
     width: 100%;
     height: 420px;
+    overflow: hidden;
+    transform: rotate(5deg);
+    transition: var(--transition);
 }
 
+.testimgright{
+    border-radius: 10%;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    transform: rotate(-5deg);
+    transition: var(--transition);
+}
 
+.testimgleft:hover, .testimgright:hover{
+    transform: rotate(0);
+}
 
 p{
     margin-top: 10px;
     text-align: justify;
+}
+
+.imageitem{
+        width: 100%;
+        height: 420px;
+        aspect-ratio: 1/1;
+        border-radius: 10%;
+        background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+        display: grid;
+        place-items: center;
 }

@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Chat from './components/chat/Chat'
 import Education from './components/EducationUpdate/test'
+import Work from './components/work/work'
 
 const app = () => { 
   return (
@@ -15,6 +16,7 @@ const app = () => {
         <Header />
         <Nav />
         <About />
+        <Work />
         <Education />
         <Experience />
         <Portfolio />
