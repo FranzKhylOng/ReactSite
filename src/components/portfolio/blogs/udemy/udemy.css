@@ -1,7 +1,7 @@
 
 .udemycont{
     margin: 0 auto;    
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     text-align: justify;
     flex-direction: column;
@@ -13,8 +13,6 @@
     box-sizing: border-box;
     overflow: hidden;
     background-color: var(--color-bg);
-    
-    border-radius: 10%;
     margin-bottom: 100px;
 }
 
@@ -48,7 +46,15 @@ ul > li{
     margin-bottom: 30px;
   }
 
+ .importanttext{
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
   li span {
     color: black; /* text color */
     font-weight: 400;
+  }
+
+  .imgcontudemy{
+    width: 60%;
   }
