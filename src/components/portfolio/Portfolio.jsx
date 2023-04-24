@@ -5,6 +5,7 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
 import { Slide } from "react-awesome-reveal";
 import {Link} from 'react-router-dom';
 
@@ -14,8 +15,21 @@ const Portfolio = () => {
       <h5>Get To Know</h5>
       <h2>My Projects</h2>
 
+
       <div className="container portfolio__container">
       <Slide direction='left' duration={800}>
+
+      <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} id='udemypic' alt="Udemy Courses Analysis" />
+          </div>
+          <h3>Udemy Courses Analysis</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/FranzKhylOng/Udemy-Courses-DA/blob/main/udemy.ipynb" className='btn' target='_blank'>Github</a>
+            <Link className='btn btn-primary' to="/udemy">View</Link>
+          </div>
+        </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="TruthSeeker.AI" />
@@ -24,7 +38,6 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/FranzKhylOng/TruthSeeker.AI" className='btn' target='_blank'>Github</a>
             <a href="https://docs.google.com/presentation/d/e/2PACX-1vSAUqLn2SX62ZoI3-ozGDOZXonZNic1SBkQHcXVV2oMWII9cC6CkpKn7dSiCFPA6g/pub?start=false&loop=false&delayms=5000" className='btn btn-primary' target='_blank'>Pitch Deck</a>
-            <Link className='btn btn-primary' to="/udemy">View</Link>
           </div>
         </article>
 
@@ -62,16 +75,7 @@ const Portfolio = () => {
           <a href="https://github.com/FranzKhylOng/Random-Password-Generator-Website" className='btn' target='_blank'>Github</a>
           <a href="https://franzkhylong.github.io/Random-Password-Generator-Website/" className='btn btn-primary' target='_blank'>Live Demo</a></div>          
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="Scoreboard site" />
-          </div>
-          <h3>Scoreboard site</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/FranzKhylOng/Scoreboard" className='btn' target='_blank'>Github</a>
-            <a href="https://franzkhylong.github.io/Scoreboard/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
+  
         </Slide>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { useEffect } from 'react'
 import './udemy.css'
 import cover from '../../../../assets/udemycover.png'
 import top20 from '../../../../assets/top20df.png'
@@ -44,8 +44,9 @@ plt.ylabel("")
   
 # Show the plot
 plt.show()`;
-
-
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
 
     return (
       <div className="testdiv">
