@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactSite/static/css/main.7e3837cd.css",
-    "main.js": "/ReactSite/static/js/main.0165db18.js",
+    "main.css": "/ReactSite/static/css/main.950aa4cb.css",
+    "main.js": "/ReactSite/static/js/main.bc9cdf25.js",
     "static/media/me.png": "/ReactSite/static/media/me.e17acf310fcec943ec4e.png",
     "static/media/tcs.png": "/ReactSite/static/media/tcs.fddc8cb8f7f6979ed18b.png",
     "static/media/questronix.jpg": "/ReactSite/static/media/questronix.0fea5fd0792239a73785.jpg",
@@ -14,14 +14,18 @@
     "static/media/portfolio3.png": "/ReactSite/static/media/portfolio3.a45d54b77c468fce3f04.png",
     "static/media/portfolio1.png": "/ReactSite/static/media/portfolio1.4f8673647a657f1046c4.png",
     "static/media/portfolio4.png": "/ReactSite/static/media/portfolio4.d2810b31f4c7b6b9a8f1.png",
+    "static/media/udemycover.png": "/ReactSite/static/media/udemycover.cc50df43be33fe0d0377.png",
     "static/media/portfolio2.png": "/ReactSite/static/media/portfolio2.6ece6dacc53c0e3cdbf3.png",
     "static/media/portfolio5.png": "/ReactSite/static/media/portfolio5.e71c133917e7b66c56a6.png",
+    "static/media/top20df.png": "/ReactSite/static/media/top20df.4c89fdac63ab608f77f4.png",
+    "static/media/utopics.png": "/ReactSite/static/media/utopics.051cde24cf8ad7af9753.png",
+    "static/media/20topics.png": "/ReactSite/static/media/20topics.92a7eead31d1d9a5d38c.png",
     "index.html": "/ReactSite/index.html",
-    "main.7e3837cd.css.map": "/ReactSite/static/css/main.7e3837cd.css.map",
-    "main.0165db18.js.map": "/ReactSite/static/js/main.0165db18.js.map"
+    "main.950aa4cb.css.map": "/ReactSite/static/css/main.950aa4cb.css.map",
+    "main.bc9cdf25.js.map": "/ReactSite/static/js/main.bc9cdf25.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e3837cd.css",
-    "static/js/main.0165db18.js"
+    "static/css/main.950aa4cb.css",
+    "static/js/main.bc9cdf25.js"
   ]
 }
