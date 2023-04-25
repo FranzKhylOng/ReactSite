@@ -26,7 +26,7 @@ const Work = () => {
             </Slide>
             <Slide direction='left' duration={800} delay={300}>
             <div className="content">
-                <h2 className='info'>Power Apps Developer Intern</h2>
+                <h2 className='info'>Power Developer Intern</h2>
                 <h3 className='h3txt'>Questronix Coporation</h3>
                 <h3 className='date'>March 2023-May 2023</h3>
                 <p>As an intern, I was given a solo task of developing an event dashboard application to be used by the company's marketing team. My supervisor praised me for my initiative as my application was a success with the staff when I presented my work. Creating the dashboard has helped me learn new technologies, such as Power Apps for the application, Power BI for creating dashboards and gantt charts, and Power Automate to update the database whenever users updated the data using the app.</p>
