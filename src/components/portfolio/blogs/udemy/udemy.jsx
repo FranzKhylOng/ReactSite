@@ -73,16 +73,16 @@ useEffect(() => {
       <div className="testdiv">
         <Link to='/' className='backlink'>Back</Link>
       <div className='udemycont'>
-          <h2>Project: Descriptive Analysis On Udemy Courses</h2>
+          <h2 className='uh2'>Project: Descriptive Analysis On Udemy Courses</h2>
           <img id='cover' src={cover} alt="coverpicture" />
-          <h3>Preface</h3>
+          <h3 className='uh3'>Preface</h3>
           <p className='content'>As a consistent fan of online learning, I remain deeply appreciative of the opportunities it has afforded me to cultivate and enrich my skill set. Having taken numerous online courses myself, I find myself curious regarding the empirical data surrounding the courses available on Udemy. Accordingly, I have created a quick project that is designed to develop my skills and experience in data cleaning, manipulation, and visualization with the use of Python. With this project, I also intend to broaden my understanding of the Udemy platform, exploring its trends, courses, and user preferences in greater depth.
           </p>
-          <h3>Dataset Used</h3>
+          <h3 className='uh3'>Dataset Used</h3>
           <p  className='content'>For the purpose of my analysis, I have obtained a publicly available dataset from Kaggle which offers a comprehensive account of every available Udemy course as of October 10, 2022. The dataset boasts a lot of useful information, including average course ratings, subscriber counts, categorical classifications, and a variety of other interesting factors.
             You can find the dataset <a href="https://www.kaggle.com/datasets/hossaingh/udemy-courses" target='#blank'>here.</a>
           </p>
-          <h3>What Are The Goals Of This Project?</h3>
+          <h3 className='uh3'>What Are The Goals Of This Project?</h3>
           <p  className='content'>The goal of this project is to understand the patterns and trends in online course consumption, where we can get insights on what are the preferences of the students purchasing Udemy courses.
           Such insights may, in turn, inform the decision-making processes of individuals who are interested in creating courses on the Udemy platform. Specifically, by analyzing these trends, it may be possible to ascertain which topics or niches are likely to yield the greatest demand and interest among potential students.
           </p>
@@ -93,16 +93,16 @@ useEffect(() => {
             <li><span>Is there a correlation with average rating and subscriber numbers?</span></li>
             <li><span>Are there any other significant correlations?</span></li>
           </ul>
-          <h3>What Are The Tools Used For This Project?</h3>
+          <h3 className='uh3'>What Are The Tools Used For This Project?</h3>
           <p className='content'>For this project, we will be using Python, this included well-known Python libraries such as Pandas and Seaborn.</p>
-          <h3>Importing And Cleaning The Data</h3>
+          <h3 className='uh3'>Importing And Cleaning The Data</h3>
           <p>Here, I first imported the libraries that we will be using throughout the project, along with the data. The dataset is stored within a CSV file.
             For the cleaning, I then removed any duplicates from the dataframe. Then I have decided to drop columns that may provide repetitive or unnecessary information such as the course URL, instructor URL, and id. I have also decided to drop any courses that are not paid, as we are only interested in paid courses.
           </p>
           <SyntaxHighlighter language="python" style={cb}>
             {codeString1}
           </SyntaxHighlighter>
-        <h3>What Are The Most Popular Courses On Udemy?</h3>
+        <h3 className='uh3'>What Are The Most Popular Courses On Udemy?</h3>
         <p>In order to initially get the top 20 most subscribed courses on Udemy, I first 
           only chose to keep the columns of course title, topic, number of subscribers, and ratings to make
           the printed result be easier to understand while keeping the information that would be relevant
@@ -128,7 +128,7 @@ useEffect(() => {
           {codeString3}
         </SyntaxHighlighter>
         <img className='imgcontudemy' src={topics20} alt="top 20 courses by topic" />
-        <h3>What Are The Most Popular Topics On The Platform Overall?</h3>
+        <h3 className='uh3'>What Are The Most Popular Topics On The Platform Overall?</h3>
         <p>While, we have already examined the topics among the most popular courses, I also want to take a look on which topics are the most subscribed on the platform overall in order to see what differs and what stays the same.
           In the code below, I grouped the data by topic and then summed the subscriber counts for each topic. I then sorted the values in descending order and selected the top 20 rows.
         </p>
@@ -139,7 +139,7 @@ useEffect(() => {
           in some form, except for one, which is learning the English language. Despite Python being number one, we can see that the topics of JavaScript, CSS, React JS, and Web Development as a whole, all made it 
           onto the list, which shows how big of a demand <span className="importanttext">web development</span> still really has.</p>
         <img className='imgcontudemy' src={utopics} alt="most popular topics" />
-        <h3>Correlations</h3>
+        <h3 className='uh3'>Correlations</h3>
         <p>A scatter plot was generated to examine the potential correlation between the number of subscribers a course has and its rating. The analysis revealed a <span className="importanttext">negligible correlation</span> coefficient of 0.07, indicating a very weak association between the two variables.
         </p>
         <SyntaxHighlighter language="python" style={cb}>
@@ -153,7 +153,7 @@ useEffect(() => {
           {codeString6} 
         </SyntaxHighlighter>
         <img className='imgcontudemy' src={heatmap} alt="heatmap" />
-        <h3>Other Findings</h3>
+        <h3 className='uh3'>Other Findings</h3>
         <p>Plotting the number of courses and subscribers on the platform per year, we could see that the number of subscribers on the platform peaked in the year <span className="importanttext">2020</span>.
           This could possible be due to the fact that the pandemic has caused many people to stay at home, and thus, they have more time to learn new skills and take up new hobbies.
           The number of courses, on the other hand, peaked in the year 2021, this could be due to the fact that there was an increase in demand, as there were now more subscribers on the platform,
@@ -164,7 +164,7 @@ useEffect(() => {
         most popular language on the platform, as it is the most widely spoken language in the world. However, it is interesting to see that <span className="importanttext">Spanish</span> and <span className="importanttext">Portugese</span> is the second and third most popular language on the platform,
         meaning, that there is a large demand for courses in those languages as well. Which is good news for instructors that want to use those languages in their courses but are worried that there will not be enough demand for it. </p>
         <img class='imgcontudemy' src={ulang} alt="languages in udemy" />
-        <h3>Conclusions</h3>
+        <h3 className='uh3'>Conclusions</h3>
         <p>The following is the summary and findings of my analysis:</p>
         <ul className='conclusions'>
             <li><span><span className="importanttext">Python</span> is the most popular topic on the platform, followed by <span className="importanttext">web development</span> topics.</span></li>

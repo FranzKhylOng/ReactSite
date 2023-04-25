@@ -29,11 +29,11 @@
     padding: 20px;
 }
 
-h2{
+.uh2{
     font-weight: 600;
 }
 
-h3{
+.uh3{
     margin-top: 20px;
     color: var(--color-primary);
     font-size: 1.5rem;
