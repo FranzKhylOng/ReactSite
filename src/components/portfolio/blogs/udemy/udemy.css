@@ -1,4 +1,6 @@
-
+.testdiv{
+  padding-top: 10px;
+}
 .udemycont{
     margin: 0 auto;    
     margin-top: 25px;
@@ -57,4 +59,19 @@ ul > li{
 
   .imgcontudemy{
     width: 60%;
+  }
+
+  #tsa{
+    margin-top: 10px;
+  }
+
+  .conclusions{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .backlink{
+    text-decoration: underline;
+    margin-left: 2rem;
+
   }
