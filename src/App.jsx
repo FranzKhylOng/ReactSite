@@ -14,7 +14,6 @@ const app = () => {
     <>
         <Chat />
         <Header />
-        <Nav />
         <About />
         <Work />
         <Education />
