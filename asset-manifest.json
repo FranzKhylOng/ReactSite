@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactSite/static/css/main.65560c40.css",
-    "main.js": "/ReactSite/static/js/main.3ad92145.js",
+    "main.css": "/ReactSite/static/css/main.80b63ce0.css",
+    "main.js": "/ReactSite/static/js/main.a1a93958.js",
     "static/media/me.png": "/ReactSite/static/media/me.e17acf310fcec943ec4e.png",
     "static/media/tcs.png": "/ReactSite/static/media/tcs.fddc8cb8f7f6979ed18b.png",
     "static/media/questronix.jpg": "/ReactSite/static/media/questronix.0fea5fd0792239a73785.jpg",
@@ -27,11 +27,11 @@
     "static/media/20topics.png": "/ReactSite/static/media/20topics.92a7eead31d1d9a5d38c.png",
     "static/media/ulang.png": "/ReactSite/static/media/ulang.50f848f8310a52505624.png",
     "index.html": "/ReactSite/index.html",
-    "main.65560c40.css.map": "/ReactSite/static/css/main.65560c40.css.map",
-    "main.3ad92145.js.map": "/ReactSite/static/js/main.3ad92145.js.map"
+    "main.80b63ce0.css.map": "/ReactSite/static/css/main.80b63ce0.css.map",
+    "main.a1a93958.js.map": "/ReactSite/static/js/main.a1a93958.js.map"
   },
   "entrypoints": [
-    "static/css/main.65560c40.css",
-    "static/js/main.3ad92145.js"
+    "static/css/main.80b63ce0.css",
+    "static/js/main.a1a93958.js"
   ]
 }
