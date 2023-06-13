@@ -43,6 +43,10 @@
     margin-top: 10px;
 }
 
+button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
 
 
 /*-------- Medium Sized Screens--------*/

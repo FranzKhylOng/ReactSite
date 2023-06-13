@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/demodashcover.png'
 import { Slide } from "react-awesome-reveal";
 import {Link} from 'react-router-dom';
 
@@ -18,6 +19,17 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
       <Slide direction='left' duration={800}>
+
+      <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="GDSC Demographics Dashboard" />
+          </div>
+          <h3>GDSC Demographics Dashboard</h3>
+          <div className="portfolio__item-cta">
+            <button disabled className='btn' to="/udemy">In Progress</button>
+          </div>
+        </article>
+
 
       <article className="portfolio__item">
           <div className="portfolio__item-image">
